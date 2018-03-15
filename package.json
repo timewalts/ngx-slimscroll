@@ -14,7 +14,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:lib": "ng-packagr -p ng-package.json",
-    "prepublishOnly": "npm run build:lib"
+    "prepare": "npm run build:lib"
   },
   "devDependencies": {
     "@angular-devkit/core": "0.0.28",
